@@ -1,0 +1,34 @@
+
+body{
+    background-color: #ededed;
+}
+
+#postContainer .card h3{
+    text-transform: capitalize;
+}
+
+#postContainer .card{
+    transition: all 0.3s ease-in-out;
+}
+
+#postContainer .card:is(:hover, :active, :focus){
+    box-shadow: 5px 5px 10px #000;
+    transform: scale(1.01);
+}
+
+#postContainer .card p{
+    padding:10px;
+}
+
+.loder{
+    position: fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100vh;
+    background: rgba(255, 255, 255, .7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
